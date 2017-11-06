@@ -26,7 +26,7 @@ class NiftiWidget:
 
     Args
     ----
-        filename : str
+        filename : str | :python:<pathlib.Path>
                 The path to your ``.nii`` file. Can be a string, or a
                 ``PosixPath`` from python3's pathlib.
     """
@@ -37,7 +37,7 @@ class NiftiWidget:
 
         Args
         ----
-            filename : str
+            filename : str | :py:class:<pathlib.Path>
                     The path to your ``.nii`` file. Can be a string, or a
                     ``PosixPath`` from python3's pathlib.
         """

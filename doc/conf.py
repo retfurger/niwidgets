@@ -13,6 +13,8 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+# flake8: noqa
+
 import re
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -187,7 +189,8 @@ texinfo_documents = [
 intersphinx_mapping = {'python': ('https://docs.python.org/3.6', None),
                        'mne': ('https://mne-tools.github.io/stable', None),
                        'np': ('https://docs.scipy.org/doc/numpy-1.10.0/',
-                              None)}
+                              None),
+                       'nibabel': ('http://nipy.org/nibabel/', None)}
 
 
 # -- Options for Epub output ----------------------------------------------

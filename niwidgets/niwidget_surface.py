@@ -28,7 +28,9 @@ class SurfaceWidget:
         """
         Create a surface widget.
 
-        meshfile: file containing the
+        Args
+        ----
+            meshfile : str | :python:<pathlib.Path>
                   (1) 3D coordinates of each vertex (V x 3 array, where
                   V=#vertices)
                   (2) triangle specifications (T x 3 array, where T=#triangles)
