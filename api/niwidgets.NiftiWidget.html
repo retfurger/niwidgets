@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 
+
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>niwidgets.NiftiWidget &#8212; niwidgets 0.1.3 documentation</title>
+    
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.5.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
@@ -22,22 +26,20 @@
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <script type="text/javascript" src="https://unpkg.com/@jupyter-widgets/html-manager@^0.10.0/dist/embed.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="niwidgets.SurfaceWidget" href="niwidgets.SurfaceWidget.html" />
-    <link rel="prev" title="API" href="../api.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
 
   </head>
-  <body>
+  <body role="document">
 
   <div id="navbar" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -66,12 +68,12 @@
   <ul class="dropdown-menu globaltoc"
       role="menu"
       aria-labelledby="dLabelGlobalToc"><p class="caption"><span class="caption-text">Documentation content:</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../examples.html">Usage: <code class="docutils literal"><span class="pre">niwidgets</span></code> examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../examples.html#Volume-data">Volume data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../examples.html#Surface-data">Surface data</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API</a></li>
 </ul>
 </ul>
 </li>
@@ -94,14 +96,6 @@
             
               
                 
-  <li>
-    <a href="../api.html" title="Previous Chapter: API"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; API</span>
-    </a>
-  </li>
-  <li>
-    <a href="niwidgets.SurfaceWidget.html" title="Next Chapter: niwidgets.SurfaceWidget"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">niwidgets.Sur... &raquo;</span>
-    </a>
-  </li>
               
             
             
@@ -133,23 +127,8 @@
   <div class="row">
     <div class="col-md-12 content">
       
-  <div class="section" id="niwidgets-niftiwidget">
-<h1>niwidgets.NiftiWidget<a class="headerlink" href="#niwidgets-niftiwidget" title="Permalink to this headline">¶</a></h1>
-<dl class="class">
-<dt id="niwidgets.NiftiWidget">
-<em class="property">class </em><code class="descclassname">niwidgets.</code><code class="descname">NiftiWidget</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/niwidgets/niwidget_volume.html#NiftiWidget"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#niwidgets.NiftiWidget" title="Permalink to this definition">¶</a></dt>
-<dd><p>Turn .nii files into interactive plots using ipywidgets.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filename</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) – The path to your <code class="docutils literal"><span class="pre">.nii</span></code> file. Can be a string, or a
-<code class="docutils literal"><span class="pre">PosixPath</span></code> from python3’s pathlib.</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
+  <div class="section" id="niwidgets.NiftiWidget">
+<h1>niwidgets.NiftiWidget<a class="headerlink" href="#niwidgets.NiftiWidget" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <p class="rubric">Methods</p>
 <p>These are the methods that are added by niwidgets. All methods, including the inherited ones, are at the end of the page.</p>
@@ -159,60 +138,11 @@
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="#niwidgets.NiftiWidget.nifti_plotter" title="niwidgets.NiftiWidget.nifti_plotter"><code class="xref py py-obj docutils literal"><span class="pre">nifti_plotter</span></code></a>([plotting_func,&nbsp;colormap,&nbsp;figsize])</td>
-<td>Plot volumetric data.</td>
-</tr>
 </tbody>
 </table>
 <hr class="docutils" />
 <p class="rubric">Methods Details</p>
-<div class="method-div"><dl class="class">
-<dt>
-<em class="property">class </em><code class="descclassname">niwidgets.</code><code class="descname">NiftiWidget</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/niwidgets/niwidget_volume.html#NiftiWidget"><span class="viewcode-link">[source]</span></a></dt>
-<dd><p>Turn .nii files into interactive plots using ipywidgets.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filename</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) – The path to your <code class="docutils literal"><span class="pre">.nii</span></code> file. Can be a string, or a
-<code class="docutils literal"><span class="pre">PosixPath</span></code> from python3’s pathlib.</td>
-</tr>
-</tbody>
-</table>
-<dl class="method">
-<dt id="niwidgets.NiftiWidget.nifti_plotter">
-<code class="descname">nifti_plotter</code><span class="sig-paren">(</span><em>plotting_func=None</em>, <em>colormap=None</em>, <em>figsize=(15</em>, <em>5)</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/niwidgets/niwidget_volume.html#NiftiWidget.nifti_plotter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#niwidgets.NiftiWidget.nifti_plotter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Plot volumetric data.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>plotting_func</strong> (<em>function</em>) – A plotting function for .nii files, most likely</li>
-<li><strong>mask_background</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/functions.html#bool" title="(in Python v3.6)"><em>bool</em></a>) – Whether the background should be masked (set to NA).
-This parameter only works in conjunction with the default
-plotting function (<cite>plotting_func=None</cite>). It finds clusters
-of values that round to zero and somewhere touch the edges
-of the image. These are set to NA. If you think you are
-missing data in your image, set this False.</li>
-<li><strong>colormap</strong> (<em>str | list</em>) – The matplotlib colormap that should be applied to the data.
-By default, the widget will allow you to pick from all that
-are available, but you can pass a string to fix the
-colormap or a list of strings to offer the user a few
-options.</li>
-<li><strong>figsize</strong> (<em>tup</em>) – The figure height and width for matplotlib, in inches.</li>
-<li><strong>you are providing a custom plot function</strong><strong>, </strong><strong>any kwargs you provide</strong> (<em>If</em>) – </li>
-<li><strong>nifti_plotter will be passed to that function.</strong> (<em>to</em>) – </li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
-</dd></dl>
-
-</div></div>
+<div class="method-div"></div></div>
 
 
     </div>
@@ -227,7 +157,7 @@ options.</li>
     </p>
     <p>
         &copy; Copyright 2017, Jan Freyberg.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.6.<br/>
     </p>
   </div>
 </footer>
