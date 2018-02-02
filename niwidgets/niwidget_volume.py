@@ -42,7 +42,7 @@ class NiftiWidget:
                     ``PosixPath`` from python3's pathlib.
         """
         self.filename = Path(filename).resolve()
-        if not os.path.isfile(self.filename):
+        if not os.path.isfile(str(self.filename)):
             raise OSError('File ' + self.filename.name + ' not found.')
 
         # load data in advance

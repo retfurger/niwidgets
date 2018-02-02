@@ -17,8 +17,8 @@ setup(
     version=version,
     description=blurb,
     long_description=readme,
-    url='https://github.com/nipy/niwidgets',
-    download_url='https://github.com/nipy/niwidgets/archive/' +
+    url='https://github.com/retfurger/niwidgets.git',
+    download_url='https://github.com/retfurger/niwidgets/archive/' +
         version + '.tar.gz',
     # Author details
     author='Bjoern Soergel & Jan Freyberg',
